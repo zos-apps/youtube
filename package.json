@@ -41,7 +41,27 @@
       "Playlists",
       "Comments",
       "Live streams"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/youtube"
+    },
+    "featured": false,
+    "tags": [
+      "media",
+      "audio",
+      "video",
+      "youtube"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/youtube/issues",
+    "changelog": "https://github.com/zos-apps/youtube/releases"
   },
   "scripts": {
     "build": "tsup",
