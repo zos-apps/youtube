@@ -20,7 +20,28 @@
         "height": 800
       },
       "resizable": true
-    }
+    },
+    "about": "Video streaming platform with millions of videos.",
+    "help": [
+      "Search for videos",
+      "Subscribe to channels",
+      "Create playlists"
+    ],
+    "docs": "https://zos-apps.github.io/youtube",
+    "site": "https://github.com/zos-apps/youtube",
+    "shortcuts": [
+      "Space Play/Pause",
+      "F Fullscreen",
+      "M Mute",
+      "J/L Skip"
+    ],
+    "features": [
+      "Video streaming",
+      "Subscriptions",
+      "Playlists",
+      "Comments",
+      "Live streams"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +74,13 @@
     "youtube",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
