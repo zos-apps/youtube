@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface YouTubeProps { onClose: () => void; }
 
@@ -13,7 +13,7 @@ const videos = [
   { id: 8, title: 'Travel Vlog: Japan 2025', channel: 'Lost LeBlanc', views: '789K', time: '28:33', thumb: 'from-amber-500 to-red-500' },
 ];
 
-const YouTube: React.FC<YouTubeProps> = ({ onClose }) => {
+const YouTube: React.FC<YouTubeProps> = ({ onClose: _onClose }) => {
   const [search, setSearch] = useState('');
   const [selectedVideo, setSelectedVideo] = useState<typeof videos[0] | null>(null);
 
